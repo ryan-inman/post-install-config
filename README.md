@@ -49,7 +49,7 @@ Log back into the osTicket Admin Panel with the credentials created in the previ
 <br />
 
 <p>
-Click Agents -> Roles -> Add New Role. Enter the name "Supreme Admin" for the role and then navigate to the Permissions tab. Enable every permission in "Tickets", "Tasks" and "Knowledgebase". Make sure to save changes.
+Go to Admin Panel -> Agents -> Roles -> Add New Role. Enter the name "Supreme Admin" for the role and then navigate to the Permissions tab. Enable every permission in "Tickets", "Tasks" and "Knowledgebase". Make sure to save changes.
 </p>
 <br />
 
@@ -61,7 +61,7 @@ Click Agents -> Roles -> Add New Role. Enter the name "Supreme Admin" for the ro
 <br />
 
 <p>
-Click Agents -> Departments -> Add New Department. Name the new department "System Administrators" and click Create Dept.
+Go to Admin Panel -> Agents -> Departments -> Add New Department. Name the new department "System Administrators" and click Create Dept.
 </p>
 <br />
 
@@ -73,14 +73,14 @@ Click Agents -> Departments -> Add New Department. Name the new department "Syst
 <br />
 
 <p>
-Click Agents -> Teams -> Add New Teams. Name the team "Level II Support", add yourself to the team and select Create Team.
+Go to Admin Panel -> Agents -> Teams -> Add New Teams. Name the team "Level II Support", add yourself to the team and select Create Team.
 </p>
 <br />
 
 <p>
 <b>Step 4: Allow anyone to create tickets</b>
 <br />
-Click Settings -> User Settings. Check the box that says "Require registration and login to create tickets" and save changes.
+Go to Admin Panel -> Settings -> User Settings. Check the box that says "Require registration and login to create tickets" and save changes.
 </p>
 <br />
 
@@ -92,7 +92,7 @@ Click Settings -> User Settings. Check the box that says "Require registration a
 <br />
 
 <p>
-Click Agents -> Add New Agent. For this lab we will be creating two agents. For each agent fill out the Name, Email and Username fields then set a password (do not require a reset or change). 
+Go to Admin Panel -> Agents -> Add New Agent. For this lab we will be creating two agents. For each agent fill out the Name, Email and Username fields then set a password (do not require a reset or change). 
 </p>
 <br />
 
@@ -109,17 +109,17 @@ In the Access Tab assign Agent 1 to the "Systems Administrators" Department and 
 <br />
 
 <p>
-Click Agent Panel -> Users -> Add New. Create two users with an email and name.
+Go to Agent Panel -> Users -> Add New. Create two users with an email and name.
 </p>
 <br />
 
 <p>
 <b> Step 7: Configure SLA</b>
 <br />
-  "<a href="https://docs.osticket.com/en/latest/Admin/Manage/SLA%20Plans.html"> SLA</a> Plans or Service Level Agreements, are unlimited in osTicket. The purpose of the SLA Plan is to provide a length of time in which the help desk Administrator expects tickets to be closed."
+  "<a href="https://docs.osticket.com/en/latest/Admin/Manage/SLA%20Plans.html">SLA</a> Plans or Service Level Agreements, are unlimited in osTicket. The purpose of the SLA Plan is to provide a length of time in which the help desk Administrator expects tickets to be closed."
 
 <p>
-Click Admin Panel -> Manage -> SLA. We will create 3 different SLA's.
+Go to Admin Panel -> Manage -> SLA. We will create three different SLA's.
 <br />
  - Sev A (1 hour, 24/7)
 <br />
@@ -131,16 +131,26 @@ Click Admin Panel -> Manage -> SLA. We will create 3 different SLA's.
  
 
 <p>
-text
+<b> Step 8: Configure Help Topics</b>
+<br />
+ "<a href="https://docs.osticket.com/en/latest/Admin/Manage/Help%20Topic.html">Help Topics</a> will help streamline your end-user’s help desk experience to ensure proper assignment and prompt response to the ticket."
 </p>
 <br />
 
 <p>
-text
+Go to Admin Panel -> Manage -> Help Topics. We will create four different Help Topics.
+<br />
+- Business Critical Outage
+<br />
+- Personal Computer Issues
+<br />
+- Equipment Request
+<br />
+- Password Reset
 </p>
 <br />
 
 <p>
-text
+Congratulations, you have completed the post-installation configuration for osTicket! In the next lab we will go over the lifecycle of a ticket. 
 </p>
 <br />
