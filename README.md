@@ -5,11 +5,6 @@
 <h1>osTicket - Post-Install Configuration</h1>
 This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
 
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Configure osTicket, post-installation](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -31,16 +26,10 @@ This tutorial outlines the post-install configuration of the open-source help de
 <h2>Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
 Log back into the osTicket Admin Panel with the credentials created in the previous lab [http://localhost/osTicket/scp/login.php].
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 <p>
 <b>Step 1: Configure Roles</b>
 <br />
@@ -49,7 +38,7 @@ Log back into the osTicket Admin Panel with the credentials created in the previ
 <br />
 
 <p>
-Go to Admin Panel -> Agents -> Roles -> Add New Role. Enter the name "Supreme Admin" for the role and then navigate to the Permissions tab. Enable every permission in "Tickets", "Tasks" and "Knowledgebase". Make sure to save changes.
+Go to Admin Panel -> Agents -> Roles -> Add New Role. Enter the name "Supreme Admin" for the role and then navigate to the Permissions tab. Enable every permission in "Tickets", "Tasks" and "Knowledgebase".
 </p>
 <br />
 
@@ -109,7 +98,7 @@ In the Access Tab assign Agent 1 to the "Systems Administrators" Department and 
 <br />
 
 <p>
-Go to Agent Panel -> Users -> Add New. Create two users with an email and name.
+Go to Agent Panel -> Users -> Add User. Create two users with an email and name.
 </p>
 <br />
 
