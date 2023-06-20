@@ -27,7 +27,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <p>
 Log back into the osTicket Admin Panel with the credentials created in the previous lab [http://localhost/osTicket/scp/login.php].
-<p align="center"><img src="blank" height="70%" width="70%" alt="osticket admin panel"/> </p>
+<p align="center"><img src="https://i.imgur.com/GvLp8hh.png" height="70%" width="70%" alt="osticket admin panel"/> </p>
 </p>
 <br />
 
@@ -41,10 +41,10 @@ Log back into the osTicket Admin Panel with the credentials created in the previ
 
 <p>
 Go to Admin Panel -> Agents -> Roles -> Add New Role. Enter the name "Supreme Admin" for the role and then navigate to the Permissions tab. Enable every permission in "Tickets", "Tasks" and "Knowledgebase".
-<p align="center"><img src="blank" height="70%" width="70%" alt="configure roles"/> </p>
-<p align="center"><img src="blank" height="70%" width="70%" alt="configure roles"/> </p>
-<p align="center"><img src="blank" height="70%" width="70%" alt="configure roles"/> </p>
-<p align="center"><img src="blank" height="70%" width="70%" alt="configure roles"/> </p>
+<p align="center"><img src="https://i.imgur.com/2DLE13r.png" height="70%" width="70%" alt="configure roles"/> </p>
+<p align="center"><img src="https://i.imgur.com/LTDs2FO.png" height="70%" width="70%" alt="configure roles"/> </p>
+<p align="center"><img src="https://i.imgur.com/q3u6fWF.png" height="70%" width="70%" alt="configure roles"/> </p>
+<p align="center"><img src="https://i.imgur.com/7F0d40F.png" height="70%" width="70%" alt="configure roles"/> </p>
 </p>
 <br />
 
@@ -58,8 +58,8 @@ Go to Admin Panel -> Agents -> Roles -> Add New Role. Enter the name "Supreme Ad
 
 <p>
 Go to Admin Panel -> Agents -> Departments -> Add New Department. Name the new department "System Administrators" and click Create Dept.
-<p align="center"><img src="blank" height="70%" width="70%" alt="configure departments"/> </p>
-<p align="center"><img src="blank" height="70%" width="70%" alt="configure departments"/> </p>
+<p align="center"><img src="https://i.imgur.com/5mAXTFB.png" height="70%" width="70%" alt="configure departments"/> </p>
+<p align="center"><img src="https://i.imgur.com/UDvyQ4f.png" height="70%" width="70%" alt="configure departments"/> </p>
 </p>
 <br />
 
@@ -73,9 +73,9 @@ Go to Admin Panel -> Agents -> Departments -> Add New Department. Name the new d
 
 <p>
 Go to Admin Panel -> Agents -> Teams -> Add New Teams. Name the team "Level II Support", add yourself to the team and select Create Team.
-<p align="center"><img src="blank" height="70%" width="70%" alt="configure teams"/> </p>
-<p align="center"><img src="blank" height="70%" width="70%" alt="configure teams"/> </p>
-<p align="center"><img src="blank" height="70%" width="70%" alt="configure teams"/> </p>
+<p align="center"><img src="https://i.imgur.com/QYxWmvn.png" height="70%" width="70%" alt="configure teams"/> </p>
+<p align="center"><img src="https://i.imgur.com/AapiI35.png" height="70%" width="70%" alt="configure teams"/> </p>
+<p align="center"><img src="https://i.imgur.com/bMNdHs2.png" height="70%" width="70%" alt="configure teams"/> </p>
 </p>
 <br />
 
@@ -83,7 +83,7 @@ Go to Admin Panel -> Agents -> Teams -> Add New Teams. Name the team "Level II S
 <b>Step 4: Allow anyone to create tickets</b>
 <br />
 Go to Admin Panel -> Settings -> User Settings. Uncheck the box that says "Require registration and login to create tickets" and save changes.
-<p align="center"><img src="blank" height="70%" width="70%" alt="allow anyone to create tickets"/> </p>
+<p align="center"><img src="https://i.imgur.com/26WtL0V.png" height="70%" width="70%" alt="allow anyone to create tickets"/> </p>
 </p>
 <br />
 
@@ -97,16 +97,16 @@ Go to Admin Panel -> Settings -> User Settings. Uncheck the box that says "Requi
 
 <p>
 Go to Admin Panel -> Agents -> Add New Agent. For this lab we will be creating two agents. For each agent fill out the Name, Email and Username fields then set a password (do not require a reset or change).
-<p align="center"><img src="blank" height="70%" width="70%" alt="configure agents"/> </p>
-<p align="center"><img src="blank" height="70%" width="70%" alt="configure agents"/> </p>
-<p align="center"><img src="blank" height="70%" width="70%" alt="configure agents"/> </p>
+<p align="center"><img src="https://i.imgur.com/zcjZqe0.png" height="70%" width="70%" alt="configure agents"/> </p>
+<p align="center"><img src="https://i.imgur.com/XV5niZm.png" height="70%" width="70%" alt="configure agents"/> </p>
+<p align="center"><img src="https://i.imgur.com/bPbtD47.png" height="70%" width="70%" alt="configure agents"/> </p>
 </p>
 <br />
 
 <p>
 In the Access Tab assign Agent 1 to the "Systems Administrators" Department and give extended access to the Support Department. Assign Agent 2 to the "Support" Department.
-<p align="center"><img src="blank" height="70%" width="70%" alt="configure agents"/> </p>
-<p align="center"><img src="blank" height="70%" width="70%" alt="configure agents"/> </p>
+<p align="center"><img src="https://i.imgur.com/m4HP8Ge.png" height="70%" width="70%" alt="configure agents"/> </p>
+<p align="center"><img src="https://i.imgur.com/xMrvfm9.png" height="70%" width="70%" alt="configure agents"/> </p>
 </p>
 <br />
 
@@ -120,7 +120,7 @@ In the Access Tab assign Agent 1 to the "Systems Administrators" Department and 
 
 <p>
 Go to Agent Panel -> Users -> Add User. Create two users with an email and name.
-<p align="center"><img src="blank" height="70%" width="70%" alt="configure agents"/> </p>
+<p align="center"><img src="https://i.imgur.com/ITuvuow.png" height="70%" width="70%" alt="configure agents"/> </p>
 </p>
 <br />
 
@@ -132,16 +132,16 @@ Go to Agent Panel -> Users -> Add User. Create two users with an email and name.
 
 <p>
 Go to Admin Panel -> Manage -> SLA. We will create three different SLA's.
-<p align="center"><img src="blank" height="70%" width="70%" alt="configure sla"/> </p>
+<p align="center"><img src="https://i.imgur.com/25chHgn.png" height="70%" width="70%" alt="configure sla"/> </p>
 <br />
  - Sev A (1 hour, 24/7)
-<p align="center"><img src="blank" height="70%" width="70%" alt="configure sla"/> </p>
+<p align="center"><img src="https://i.imgur.com/vtAUycK.png" height="70%" width="70%" alt="configure sla"/> </p>
 <br />
  - Sev B (4 hours, 24/7)
-<p align="center"><img src="blank" height="70%" width="70%" alt="configure sla"/> </p>
+<p align="center"><img src="https://i.imgur.com/KlqHNT5.png" height="70%" width="70%" alt="configure sla"/> </p>
 <br />
  - Sev C (8 hours, business hours)
-<p align="center"><img src="blank" height="70%" width="70%" alt="configure sla"/> </p>
+<p align="center"><img src="https://i.imgur.com/htEc9ZX.png" height="70%" width="70%" alt="configure sla"/> </p>
 </p>
 <br />
  
@@ -156,7 +156,7 @@ Go to Admin Panel -> Manage -> SLA. We will create three different SLA's.
 
 <p>
 Go to Admin Panel -> Manage -> Help Topics. We will create four different Help Topics.
-<p align="center"><img src="blank" height="70%" width="70%" alt="configure help topics"/> </p>
+<p align="center"><img src="https://i.imgur.com/HDcFH4v.png" height="70%" width="70%" alt="configure help topics"/> </p>
 <br />
 - Business Critical Outage
 <br />
@@ -165,7 +165,7 @@ Go to Admin Panel -> Manage -> Help Topics. We will create four different Help T
 - Equipment Request
 <br />
 - Password Reset
-<p align="center"><img src="blank" height="70%" width="70%" alt="configure sla"/> </p>
+<p align="center"><img src="https://i.imgur.com/yMnwQ6m.png" height="70%" width="70%" alt="configure sla"/> </p>
 </p>
 <br />
 
