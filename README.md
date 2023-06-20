@@ -83,6 +83,7 @@ Go to Admin Panel -> Agents -> Teams -> Add New Teams. Name the team "Level II S
 <b>Step 4: Allow anyone to create tickets</b>
 <br />
 Go to Admin Panel -> Settings -> User Settings. Uncheck the box that says "Require registration and login to create tickets" and save changes.
+<p align="center"><img src="blank" height="70%" width="70%" alt="allow anyone to create tickets"/> </p>
 </p>
 <br />
 
@@ -95,12 +96,17 @@ Go to Admin Panel -> Settings -> User Settings. Uncheck the box that says "Requi
 <br />
 
 <p>
-Go to Admin Panel -> Agents -> Add New Agent. For this lab we will be creating two agents. For each agent fill out the Name, Email and Username fields then set a password (do not require a reset or change). 
+Go to Admin Panel -> Agents -> Add New Agent. For this lab we will be creating two agents. For each agent fill out the Name, Email and Username fields then set a password (do not require a reset or change).
+<p align="center"><img src="blank" height="70%" width="70%" alt="configure agents"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="configure agents"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="configure agents"/> </p>
 </p>
 <br />
 
 <p>
 In the Access Tab assign Agent 1 to the "Systems Administrators" Department and give extended access to the Support Department. Assign Agent 2 to the "Support" Department.
+<p align="center"><img src="blank" height="70%" width="70%" alt="configure agents"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="configure agents"/> </p>
 </p>
 <br />
 
@@ -114,6 +120,7 @@ In the Access Tab assign Agent 1 to the "Systems Administrators" Department and 
 
 <p>
 Go to Agent Panel -> Users -> Add User. Create two users with an email and name.
+<p align="center"><img src="blank" height="70%" width="70%" alt="configure agents"/> </p>
 </p>
 <br />
 
@@ -125,12 +132,16 @@ Go to Agent Panel -> Users -> Add User. Create two users with an email and name.
 
 <p>
 Go to Admin Panel -> Manage -> SLA. We will create three different SLA's.
+<p align="center"><img src="blank" height="70%" width="70%" alt="configure sla"/> </p>
 <br />
  - Sev A (1 hour, 24/7)
+<p align="center"><img src="blank" height="70%" width="70%" alt="configure sla"/> </p>
 <br />
  - Sev B (4 hours, 24/7)
+<p align="center"><img src="blank" height="70%" width="70%" alt="configure sla"/> </p>
 <br />
  - Sev C (8 hours, business hours)
+<p align="center"><img src="blank" height="70%" width="70%" alt="configure sla"/> </p>
 </p>
 <br />
  
@@ -145,6 +156,7 @@ Go to Admin Panel -> Manage -> SLA. We will create three different SLA's.
 
 <p>
 Go to Admin Panel -> Manage -> Help Topics. We will create four different Help Topics.
+<p align="center"><img src="blank" height="70%" width="70%" alt="configure help topics"/> </p>
 <br />
 - Business Critical Outage
 <br />
@@ -153,10 +165,11 @@ Go to Admin Panel -> Manage -> Help Topics. We will create four different Help T
 - Equipment Request
 <br />
 - Password Reset
+<p align="center"><img src="blank" height="70%" width="70%" alt="configure sla"/> </p>
 </p>
 <br />
 
 <p>
-Congratulations, you have completed the post-installation configuration for osTicket! In the next lab we will go over the lifecycle of a ticket. 
+Congratulations, you have completed the post-installation configuration for osTicket! In the next part we will go over the lifecycle of a ticket. 
 </p>
 <br />
