@@ -27,6 +27,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <p>
 Log back into the osTicket Admin Panel with the credentials created in the previous lab [http://localhost/osTicket/scp/login.php].
+<p align="center"><img src="blank" height="70%" width="70%" alt="osticket admin panel"/> </p>
 </p>
 <br />
 
@@ -40,6 +41,10 @@ Log back into the osTicket Admin Panel with the credentials created in the previ
 
 <p>
 Go to Admin Panel -> Agents -> Roles -> Add New Role. Enter the name "Supreme Admin" for the role and then navigate to the Permissions tab. Enable every permission in "Tickets", "Tasks" and "Knowledgebase".
+<p align="center"><img src="blank" height="70%" width="70%" alt="configure roles"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="configure roles"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="configure roles"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="configure roles"/> </p>
 </p>
 <br />
 
@@ -53,6 +58,8 @@ Go to Admin Panel -> Agents -> Roles -> Add New Role. Enter the name "Supreme Ad
 
 <p>
 Go to Admin Panel -> Agents -> Departments -> Add New Department. Name the new department "System Administrators" and click Create Dept.
+<p align="center"><img src="blank" height="70%" width="70%" alt="configure departments"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="configure departments"/> </p>
 </p>
 <br />
 
@@ -66,13 +73,16 @@ Go to Admin Panel -> Agents -> Departments -> Add New Department. Name the new d
 
 <p>
 Go to Admin Panel -> Agents -> Teams -> Add New Teams. Name the team "Level II Support", add yourself to the team and select Create Team.
+<p align="center"><img src="blank" height="70%" width="70%" alt="configure teams"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="configure teams"/> </p>
+<p align="center"><img src="blank" height="70%" width="70%" alt="configure teams"/> </p>
 </p>
 <br />
 
 <p>
 <b>Step 4: Allow anyone to create tickets</b>
 <br />
-Go to Admin Panel -> Settings -> User Settings. Check the box that says "Require registration and login to create tickets" and save changes.
+Go to Admin Panel -> Settings -> User Settings. Uncheck the box that says "Require registration and login to create tickets" and save changes.
 </p>
 <br />
 
