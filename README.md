@@ -132,15 +132,19 @@ Go to Agent Panel -> Users -> Add User. Create two users with an email and name.
 
 <p>
 Go to Admin Panel -> Manage -> SLA. We will create three different SLA's.
+ <br />
+ - Sev A (1 hour, 24/7)
+ <br />
+ - Sev B (4 hours, 24/7)
+ <br />
+ - Sev C (8 hours, business hours)
+<br /> 
 <p align="center"><img src="https://i.imgur.com/25chHgn.png" height="70%" width="70%" alt="configure sla"/> </p>
 <br />
- - Sev A (1 hour, 24/7)
 <p align="center"><img src="https://i.imgur.com/vtAUycK.png" height="70%" width="70%" alt="configure sla"/> </p>
 <br />
- - Sev B (4 hours, 24/7)
 <p align="center"><img src="https://i.imgur.com/KlqHNT5.png" height="70%" width="70%" alt="configure sla"/> </p>
 <br />
- - Sev C (8 hours, business hours)
 <p align="center"><img src="https://i.imgur.com/htEc9ZX.png" height="70%" width="70%" alt="configure sla"/> </p>
 </p>
 <br />
@@ -156,7 +160,6 @@ Go to Admin Panel -> Manage -> SLA. We will create three different SLA's.
 
 <p>
 Go to Admin Panel -> Manage -> Help Topics. We will create four different Help Topics.
-<p align="center"><img src="https://i.imgur.com/HDcFH4v.png" height="70%" width="70%" alt="configure help topics"/> </p>
 <br />
 - Business Critical Outage
 <br />
@@ -165,6 +168,8 @@ Go to Admin Panel -> Manage -> Help Topics. We will create four different Help T
 - Equipment Request
 <br />
 - Password Reset
+<br />
+<p align="center"><img src="https://i.imgur.com/HDcFH4v.png" height="70%" width="70%" alt="configure help topics"/> </p>
 <p align="center"><img src="https://i.imgur.com/yMnwQ6m.png" height="70%" width="70%" alt="configure sla"/> </p>
 </p>
 <br />
